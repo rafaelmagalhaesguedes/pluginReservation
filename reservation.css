@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    color: black;
+}
+
+.process {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.retirada {
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    color: white;
+    background-color: #ff5000;
+    padding: 20px;
+}
+
+.local-retirada {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    gap: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.button {
+    height: 45px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ff5000;
+    border-radius: 10px;
+    width: 360px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    height: 120px;
+}
